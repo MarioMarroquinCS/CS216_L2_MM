@@ -131,7 +131,7 @@ void battle() {
 
   cout << battleHeading() << endl;
 
-  while (firstCreature.getHealth() != 0 || secondCreature.getHealth() != 0) {
+  while (firstCreature.getHealth() != 0 && secondCreature.getHealth() != 0) {
     round++;
 
     if (offense == 0) {
@@ -215,7 +215,6 @@ Juan
                    1               Mario                  97                Juan                  56
                    2                Juan                  23               Mario                  44
                    3               Mario                  77                Juan                   0
-                   4                Juan                  77               Mario                   0
 Mario defeated Juan after 4 rounds.
 1. Let's Battle
 2. Quit
